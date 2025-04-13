@@ -104,7 +104,6 @@ class TaskManager {
         }
         return categoryCount;
     }
-
     // 8. Mark a task as completed by name
     public void markTaskCompleted(String name) {
         for (Task task : tasks) {
@@ -112,12 +111,17 @@ class TaskManager {
                 task.complete();
                 break; // assumes only one task with that name
             }   
+            }
         }
     }
 
     // 9. Mark all tasks in a category as completed
     public void markCategoryCompleted(String category) {
-        // TODO: Implement bulk completion logic
+        for (Task task : tasks) {
+            if (task.getCategory().equalsIgnoreCase(category)) {
+            task.complete();
+            }
+        }
     }
 }
 
