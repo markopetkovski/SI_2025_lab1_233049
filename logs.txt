@@ -1,0 +1,16 @@
+*   8222968 (HEAD -> master, origin/master, origin/HEAD) Merge confilct resolved
+|\
+| * dae7bd5 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Implement
+ed method 9
+* |   dda05de Merge pull request #11 from markopetkovski/8-mark-a-task-as-completed-by-name
+|\ \
+| * | b582189 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Implemented method 8
+| |/
+* |   587025c Merge pull request #10 from markopetkovski/7-count-tasks-per-category
+|\ \
+| |/
+|/|
+| * cba6930 (origin/7-count-tasks-per-category, 7-count-tasks-per-category) Implemented method 7
+|/
+* 59fed49 Add starter code
+* 7aa7b80 Initial commit
